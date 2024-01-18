@@ -1,22 +1,41 @@
-# Git Convention
-| 태그 이름 | 설명 |
-| ------ | ------ |
-| Feat | 새로운 기능을 추가할 경우 |
-| Fix | 버그를 고친 경우 |
-| Design | CSS 등 사용자 UI 디자인 변경 |
-| !BREAKING CHANGE | 커다란 API 변경의 경우 |
-| !HOTFIX | 급하게 치명적인 버그를 고쳐야하는 경우 |
-| Style | 코드 포맷 변경, 세미 콜론 누락, 코드 수정이 없는 경우 |
-| Refactor | 프로덕션 코드 리팩토링 |
-| Comment | 필요한 주석 추가 및 변경 |
-| Docs | 문서를 수정한 경우 |
-| Test | 테스트 추가, 테스트 리팩토링(프로덕션 코드 변경 X) |
-| Chore | 빌드 태스트 업데이트, 패키지 매니저를 설정하는 경우(프로덕션 코드 변경 X) |
-| Rename | 파일 혹은 폴더명을 수정하거나 옮기는 작업만인 경우 |
-| Remove | 파일을 삭제하는 작업만 수행한 경우 |
+# Morize
 
-## Example
-### "Feat: 메인 뷰 스크롤 추가했습니다."
+영단어 카드와 미니게임으로 공부하는 영어 단어장 어플리케이션
 
-## 중요도
-### 가독성을 가장 중점으로 한글, 영어 관계없이 이해하기 쉽게 커밋해주시면 됩니다.
+## Screenshots
+
+<img src="https://github.com/MorizeiOS/Morize/assets/16567811/56cdabb5-fcae-4015-a43e-66227603ed16" width="300" />
+
+<img src="https://github.com/MorizeiOS/Morize/assets/16567811/3813fddc-8c8e-4a77-abeb-aecea33d0e99" width="300" />
+
+<img src="https://github.com/MorizeiOS/Morize/assets/16567811/31597cf5-ef6d-4a36-aa1c-35d494493c6a" width="300" />
+
+<img src="https://github.com/MorizeiOS/Morize/assets/16567811/7eab2fec-d89e-45fa-a3d3-fb1b89613b0d" width="300" />
+
+<img src="https://github.com/MorizeiOS/Morize/assets/16567811/cb9566b3-e875-46b1-b4c4-e62f76851f35" width="300" />
+
+<img src="https://github.com/MorizeiOS/Morize/assets/16567811/b112f8bc-e72c-4a5e-94c4-31fc29944c22" width="300" />
+
+
+## Period
+
+2022.02 ~ 2022.04
+
+## Content
+
+- 메인 TabView에 영단어 리스트, 영단어 카드, 미니게임 뷰 등으로 이루어져 있으며 SwiftUI로 구현.
+- Firebase의 RealTime Database를 이용해 영단어 리스트뷰 개발.
+- onTapGesture, DragGesture를 이용한 영단어 카드 뷰 기능 개발.
+- Firebase DB에서 랜덤으로 불러온 영단어를 이용해 사천성 게임 기능 개발.
+
+## Member
+
+주동석 - iOS
+
+김하은 - iOS
+
+박진희 - iOS
+
+## Stack
+
+SwiftUI
