@@ -38,4 +38,4 @@
 
 ## Stack
 
-SwiftUI
+SwiftUI, Firebase
